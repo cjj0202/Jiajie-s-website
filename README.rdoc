@@ -1,0 +1,4 @@
+== README
+
+This is the test Ruby on Rails application by Jiajie Chen
+
