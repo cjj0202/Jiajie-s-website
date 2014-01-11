@@ -1,5 +1,9 @@
 JjchenWeb::Application.routes.draw do
-  resources :galleries
+  resources :galleries do
+    collection do
+      get 'manage'
+    end
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -12,6 +16,7 @@ JjchenWeb::Application.routes.draw do
   match '/contact', to: 'galleries#contact', via: 'get'
   match '/gallery', to: 'galleries#gallery', via: 'get'
   match '/blog',    to: 'galleries#blog',    via: 'get'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

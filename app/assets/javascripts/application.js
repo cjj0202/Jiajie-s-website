@@ -13,5 +13,6 @@
 //= require jquery
 //= require hermitage
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+//= require galleria-1.3.3
+//= require galleria.classic

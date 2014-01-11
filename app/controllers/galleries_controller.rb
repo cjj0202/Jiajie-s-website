@@ -2,7 +2,7 @@ class GalleriesController < ApplicationController
 
   def create
     @gallery = Gallery.create( params[:gallery] )
-
+    @gallery.file_url=@gallery.file.url
     respond_to do |format|
       if @gallery.save
         format.html { redirect_to @gallery, notice: 'Photo was successfully added.' }
@@ -19,6 +19,14 @@ class GalleriesController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
+      format.json { render json: @galleries }
+    end
+  end
+
+  def manage
+    @galleries = Gallery.all
+    respond_to do |format|
+      format.html # manage.html.erb
       format.json { render json: @galleries }
     end
   end
