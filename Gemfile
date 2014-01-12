@@ -10,6 +10,7 @@ gem "paperclip", "~> 3.0"
 gem 'protected_attributes'
 gem 'devise', '3.0.0.rc'
 gem 'aws-sdk'
+gem 'foreman'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'

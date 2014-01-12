@@ -9,9 +9,7 @@ class Gallery < ActiveRecord::Base
                     :command_path => 'C:\Program Files\ImageMagick-6.8.8-Q16',
                     :storage => :s3,
                     :bucket => "jiajie_website",
-                    :s3_credentials => {#:bucket            => ENV['AWS_BUCKET'           ],
-                                        :access_key_id     => ENV['AWS_ACCESS_KEY_ID'    ],
-                                        :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']},
-                    :s3_protocol    => "http",
-                    :s3_host_name   => "s3-website-us-east-1.amazonaws.com"
+                    :s3_credentials => "#{Rails.root}/config/s3.yml",
+                    :s3_protocol    => "http"
+                    #:s3_host_name   => "s3-website-us-east-1.amazonaws.com"
 end
