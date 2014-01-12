@@ -77,4 +77,15 @@ JjchenWeb::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Amazon S3 settings for Paperclip uploads
+  config.paperclip_defaults = {
+      :storage => :s3,
+      :s3_protocol => 'http',
+      :s3_credentials => {
+          :bucket => ENV['jiajie_website'],
+          :access_key_id => ENV['AKIAJMFXWMKIXOMJYRLA'],
+          :secret_access_key => ENV['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']
+      }
+  }
 end

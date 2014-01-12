@@ -16,6 +16,7 @@ JjchenWeb::Application.routes.draw do
   match '/contact', to: 'galleries#contact', via: 'get'
   match '/gallery', to: 'galleries#gallery', via: 'get'
   match '/blog',    to: 'galleries#blog',    via: 'get'
+  match '/galleries/manage',    to: 'galleries#manage',    via: 'get'
 
 
   # Example of regular route:
