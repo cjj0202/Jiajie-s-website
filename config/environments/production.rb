@@ -83,9 +83,9 @@ JjchenWeb::Application.configure do
       :storage => :s3,
       :s3_protocol => 'http',
       :s3_credentials => {
-          :bucket => ENV['jiajie_website'],
-          :access_key_id => ENV['AKIAJMFXWMKIXOMJYRLA'],
-          :secret_access_key => ENV['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']
+          :bucket => ENV['BUCKET_NAME'],
+          :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+          :secret_access_key => ENV['2IKu/AWS_SECRET_ACCESS_KEY']
       }
   }
 end
