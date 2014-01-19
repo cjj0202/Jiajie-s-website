@@ -16,6 +16,9 @@ section {
 
 textarea {
   resize: vertical;
+  resize: horizontal;
+  width: 800px;
+
 }
 
 .center {
@@ -49,11 +52,18 @@ h2 {
   color: #999;
 }
 
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+twitter {
+  width: full;
+  line-height: 50px;
+  margin-left: 800px;
 }
 
+p {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  width: 600px;
+}
 /* header */
 
 #logo {
@@ -87,7 +97,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #222;
+  color: #fff;
 }
 
 footer small {
@@ -103,3 +113,4 @@ footer ul li {
   float: left;
   margin-left: 10px;
 }
+

@@ -1,0 +1,36 @@
+<% provide(:title, 'Edit Blog') %>
+<h1> Edit Blog</h1>
+<p>
+  Blog Edit
+</p>
+
+<%= form_for :blog, url: blog_path(@blog), method: :patch do |f| %>
+    <% if @blog.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@blog.errors.count, "error") %> prohibited
+            this blog from being saved:</h2>
+          <% @blog.errors.full_messages.each do |msg| %>
+              <h2><%= msg %></h2>
+          <% end %>
+        </div>
+    <% end %>
+    <p>
+      <%= f.label :blog_title %><br>
+      <%= f.text_field :blog_title %>
+    </p>
+
+    <p>
+      <%= f.label :blog_text %><br>
+      <%= f.text_area :blog_text, :size => "40x10" %>
+    </p>
+
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>
+
+<%= link_to 'Back', blogs_path %>
+
+<style>
+    html,body{background:#222;margin:0;}
+</style>

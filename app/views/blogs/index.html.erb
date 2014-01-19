@@ -1,0 +1,33 @@
+<% provide(:title, 'Blog') %>
+<h1>Blog</h1>
+<p>
+  Blog Index
+</p>
+<p>
+  <%= link_to "New Blog",   new_blog_path %>
+</p>
+
+<h2>Listing posts</h2>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+
+  <% @blogs.each do |post| %>
+      <tr>
+        <td><%= post.blog_title %></td>
+        <td><%= post.blog_text %></td>
+        <td><%= link_to 'Show', post %></td>
+        <td><%= link_to 'Edit', edit_blog_path(post) %></td>
+        <td><%= link_to 'Delete', blog_path(post),
+                        method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+  <% end %>
+</table>
+
+<style>
+    html,body{background:#222;margin:0;}
+</style>
