@@ -1,5 +1,7 @@
 class GalleriesController < ApplicationController
 
+  http_basic_authenticate_with name: "cjj", password: "cjj", except: [:index, :show]
+
   def create
     @gallery = Gallery.create( params[:gallery] )
     @gallery.file_url=@gallery.file.url

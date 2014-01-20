@@ -1,12 +1,45 @@
 <p>
-  <strong>Title:</strong>
+  <strong style="color:#339bb9">Title:</strong>
   <%= @blog.blog_title %>
 </p>
 
-<p>
-  <strong>Text:</strong>
-  <%= @blog.blog_text %>
+<p width="100%">
+  <strong style="color:#339bb9">Content:</strong>
+  <%= simple_format(@blog.blog_text) %>
 </p>
+
+<h2>Comments</h2>
+<% @blog.comments.each do |comment| %>
+    <p>
+      <strong style="color:#339bb9">Commenter:</strong>
+      <%= comment.commenter %>
+    </p>
+
+    <p>
+      <strong style="color:#339bb9">Comment:</strong>
+      <%= comment.comment_body %>
+    </p>
+    <p>
+      <%= link_to 'Delete Comment', [comment.blog, comment],
+                  method: :delete,
+                  data: { confirm: 'Are you sure?' } %>
+    </p>
+<% end %>
+
+<h2>Add a comment:</h2>
+<%= form_for([@blog, @blog.comments.build]) do |f| %>
+    <p>
+      <%= f.label :commenter %><br />
+      <%= f.text_field :commenter %>
+    </p>
+    <p>
+      <%= f.label :comment_body %><br />
+      <%= f.text_area :comment_body %>
+    </p>
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>
 
 <%= link_to 'Back', blogs_path %>
 

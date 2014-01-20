@@ -1,4 +1,7 @@
 class BlogsController < ApplicationController
+
+  http_basic_authenticate_with name: "cjj", password: "cjj", except: [:index, :show]
+
   def new
     @blog = Blog.new
   end

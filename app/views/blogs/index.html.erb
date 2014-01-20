@@ -1,31 +1,24 @@
 <% provide(:title, 'Blog') %>
 <h1>Blog</h1>
-<p>
-  Blog Index
-</p>
-<p>
+<h2>
   <%= link_to "New Blog",   new_blog_path %>
-</p>
+</h2>
 
-<h2>Listing posts</h2>
-
-<table>
+<table  width="90%">
   <tr>
-    <th>Title</th>
-    <th>Text</th>
+    <td style="color:#339bb9" width="30%" ><b>Blog Title</b></td>
+    <td style="color:#339bb9" width="70%"><b>Blog Content</b></td>
   </tr>
 
-
   <% @blogs.each do |post| %>
-      <tr>
-        <td><%= post.blog_title %></td>
-        <td><%= post.blog_text %></td>
+      <tr style="color:#ffffff">
+         <td width="30%"><%= truncate(post.blog_title, :length=>20) %></td>
+        <td width="90%"><%= truncate(post.blog_text, :length=>80) %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_blog_path(post) %></td>
-        <td><%= link_to 'Delete', blog_path(post),
-                        method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-  <% end %>
+        <td><%= link_to 'Delete', blog_path(post), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+       </tr>
+   <% end %>
 </table>
 
 <style>

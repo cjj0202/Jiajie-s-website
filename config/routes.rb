@@ -4,7 +4,9 @@ JjchenWeb::Application.routes.draw do
       get 'manage'
     end
   end
-  resources :blogs
+  resources :blogs do
+    resources :comments
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
