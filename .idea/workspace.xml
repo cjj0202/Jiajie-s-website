@@ -173,7 +173,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="85" selection-start="218" selection-end="218" vertical-scroll-proportion="0.17924528">
+            <state line="18" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="1.0754716">
               <folding />
             </state>
           </provider>
@@ -1150,7 +1150,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="85" selection-start="218" selection-end="218" vertical-scroll-proportion="0.17924528">
+        <state line="18" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="1.0754716">
           <folding />
         </state>
       </provider>
