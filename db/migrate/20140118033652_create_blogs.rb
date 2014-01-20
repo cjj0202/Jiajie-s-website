@@ -1,6 +1,12 @@
 class CreateBlogs < ActiveRecord::Migration
   def change
-    add_column :blogs, :blog_title, :string
-	add_column :blogs, :blog_text, :text
+    def change
+      create_table :blogs do |t|
+        t.string :blog_title
+        t.text :blog_text
+
+        t.timestamps
+      end
+    end
   end
 end
