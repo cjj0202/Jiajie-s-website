@@ -7,3 +7,7 @@
   <%= link_to 'Remove', @gallery, confirm: 'Are you sure you want to delete?', method: :delete, class: 'destroy' %>
   <%= link_to 'Back to Gallery', galleries_path %>
 </div>
+
+<script>
+    Galleria.loadTheme("<%= javascript_path('galleria.classic.js') %>");
+</script>
