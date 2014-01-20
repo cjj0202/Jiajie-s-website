@@ -12,7 +12,7 @@
 
   <% @blogs.each do |post| %>
       <tr style="color:#ffffff">
-         <td width="30%"><%= truncate(post.blog_title, :length=>20) %></td>
+         <td width="30%"><%= truncate(post.blog_title, :length=>30) %></td>
         <td width="90%"><%= truncate(post.blog_text, :length=>80) %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_blog_path(post) %></td>
