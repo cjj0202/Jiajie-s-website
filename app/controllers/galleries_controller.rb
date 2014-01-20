@@ -1,6 +1,6 @@
 class GalleriesController < ApplicationController
 
-  http_basic_authenticate_with name: "cjj", password: "cjj", except: [:index, :show]
+  http_basic_authenticate_with name: "cjj", password: "cjj", except: [:index, :show, :home]
 
   def create
     @gallery = Gallery.create( params[:gallery] )

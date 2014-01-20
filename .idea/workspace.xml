@@ -37,6 +37,9 @@
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\original\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\square\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\thumb\DSC_0446.JPG" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jjchen_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,10 +59,10 @@
     <file path="/gallerys_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389037049496" ignored="false" />
     <file path="D:/paperclip_demo-master/app/models/friend.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389119270448" ignored="false" />
     <file path="/friend.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389119250330" ignored="false" />
-    <file path="/galleries_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389481694768" ignored="false" />
+    <file path="/galleries_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390188884463" ignored="false" />
     <file path="/20140106193432_add_attachment_avatar_to_galleries.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389040459364" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389041313674" ignored="false" />
-    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390173963963" ignored="false" />
+    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390188086104" ignored="false" />
     <file path="/application.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389042658562" ignored="false" />
     <file path="/new.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390183533638" ignored="false" />
     <file path="/_form.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389112145279" ignored="false" />
@@ -73,7 +76,7 @@
     <file path="/20140107162353_add_file_name_to_galleries.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389111848664" ignored="false" />
     <file path="D:/jjchen_web-master/db/schema.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389115625787" ignored="false" />
     <file path="/development.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389118985557" ignored="false" />
-    <file path="/Ruby Console" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390165790440" ignored="false" />
+    <file path="/Ruby Console" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390188524100" ignored="false" />
     <file path="/application.css" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389392570273" ignored="false" />
     <file path="/manage.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389474807002" ignored="false" />
     <file path="/galleria.classic.css.scss" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389475803312" ignored="false" />
@@ -115,37 +118,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="2" selection-start="240" selection-end="240" vertical-scroll-proportion="-7.464286">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <file leaf-file-name="galleries_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/galleries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="57" selection-start="67" selection-end="67" vertical-scroll-proportion="0.25">
+            <state line="2" column="90" selection-start="141" selection-end="141" vertical-scroll-proportion="0.1">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140119245413_create_comments.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140119245413_create_comments.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="64" selection-end="86" vertical-scroll-proportion="0.0">
+            <state line="26" column="43" selection-start="849" selection-end="864" vertical-scroll-proportion="-17.642857">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140118033652_create_blogs.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140118033652_create_blogs.rb">
+      <file leaf-file-name="asset_url_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-4.0.1/lib/action_view/helpers/asset_url_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="109" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+            <state line="232" column="10" selection-start="10265" selection-end="10265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20140119204855_remove_index_comments.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140119195413_create_comments.rb" />
         <option value="C:/Ruby193/lib/ruby/gems/1.9.1/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140119205413_create_comments.rb" />
@@ -182,9 +184,10 @@
         <option value="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140118033652_create_blogs.rb" />
+        <option value="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
       </list>
     </option>
   </component>
@@ -988,31 +991,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="383" selection-end="383" vertical-scroll-proportion="0.85">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="160" selection-end="160" vertical-scroll-proportion="0.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="109" selection-end="120" vertical-scroll-proportion="-4.071429">
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/rubymine.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="190" column="23" selection-start="4612" selection-end="4632" vertical-scroll-proportion="0.33157894">
@@ -1053,23 +1031,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/galleries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="50" selection-end="54" vertical-scroll-proportion="0.041297935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140119245413_create_comments.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="64" selection-end="86" vertical-scroll-proportion="0.0">
+        <state line="2" column="26" selection-start="64" selection-end="86" vertical-scroll-proportion="0.1">
           <folding />
         </state>
       </provider>
@@ -1083,14 +1047,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140118033652_create_blogs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="109" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+        <state line="9" column="109" selection-start="186" selection-end="186" vertical-scroll-proportion="0.45">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="67" selection-end="67" vertical-scroll-proportion="0.25">
+        <state line="5" column="57" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/_gallery.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-4.0.1/lib/action_view/helpers/asset_url_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="10" selection-start="10265" selection-end="10265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/galleria.classic.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="43" selection-start="849" selection-end="864" vertical-scroll-proportion="-17.642857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/galleries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="90" selection-start="141" selection-end="141" vertical-scroll-proportion="0.1">
           <folding />
         </state>
       </provider>
