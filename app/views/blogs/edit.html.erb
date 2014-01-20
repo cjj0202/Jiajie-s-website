@@ -1,8 +1,5 @@
 <% provide(:title, 'Edit Blog') %>
 <h1> Edit Blog</h1>
-<p>
-  Blog Edit
-</p>
 
 <%= form_for :blog, url: blog_path(@blog), method: :patch do |f| %>
     <% if @blog.errors.any? %>
