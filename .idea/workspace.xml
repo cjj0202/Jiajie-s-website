@@ -38,6 +38,7 @@
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\square\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\thumb\DSC_0446.JPG" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140118033652_create_blogs.rb" afterPath="$PROJECT_DIR$/db/migrate/20140118033652_create_blogs.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/home.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
     </list>
     <ignored path="jjchen_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,7 +120,16 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.071429">
+            <state line="11" column="2" selection-start="240" selection-end="240" vertical-scroll-proportion="-7.464286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="9" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,7 +147,7 @@
       <file leaf-file-name="20140118033652_create_blogs.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140118033652_create_blogs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="0.35">
+            <state line="9" column="109" selection-start="186" selection-end="186" vertical-scroll-proportion="0.45">
               <folding />
             </state>
           </provider>
@@ -1038,13 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="10" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="2" selection-start="49" selection-end="131" vertical-scroll-proportion="0.0">
@@ -1066,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.071429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140119245413_create_comments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="26" selection-start="64" selection-end="86" vertical-scroll-proportion="0.0">
@@ -1080,9 +1076,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="240" selection-end="240" vertical-scroll-proportion="-7.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140118033652_create_blogs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="0.35">
+        <state line="9" column="109" selection-start="186" selection-end="186" vertical-scroll-proportion="0.45">
           <folding />
         </state>
       </provider>
