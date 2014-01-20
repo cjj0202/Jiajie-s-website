@@ -37,16 +37,7 @@
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\original\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\square\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\thumb\DSC_0446.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/about.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/about.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/contact.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/home.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/manage.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/manage.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blogs/new.html.erb" afterPath="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/new.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blogs/show.html.erb" afterPath="$PROJECT_DIR$/app/views/blogs/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/show.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/show.html.erb" />
     </list>
     <ignored path="jjchen_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,19 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blogs/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="16" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.71299094">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galleries/about.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="380" selection-end="380" vertical-scroll-proportion="-10.857142">
+            <state line="48" column="16" selection-start="1054" selection-end="1054" vertical-scroll-proportion="-5.714286">
               <folding />
             </state>
           </provider>
@@ -182,7 +164,16 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="811" selection-end="934" vertical-scroll-proportion="-3.2857144">
+            <state line="7" column="0" selection-start="358" selection-end="531" vertical-scroll-proportion="-4.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="85" selection-start="218" selection-end="218" vertical-scroll-proportion="0.17924528">
               <folding />
             </state>
           </provider>
@@ -239,7 +230,6 @@
         <option value="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/manage.html.erb" />
@@ -249,6 +239,7 @@
         <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
       </list>
     </option>
   </component>
@@ -1087,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="596" selection-end="687" vertical-scroll-proportion="-8.035714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galleries/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="9" selection-start="380" selection-end="380" vertical-scroll-proportion="-10.857142">
@@ -1104,13 +1088,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/galleries/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="9" selection-start="369" selection-end="369" vertical-scroll-proportion="-10.178572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="811" selection-end="934" vertical-scroll-proportion="-3.2857144">
           <folding />
         </state>
       </provider>
@@ -1159,7 +1136,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="16" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.71299094">
+        <state line="48" column="16" selection-start="1054" selection-end="1054" vertical-scroll-proportion="-5.714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="358" selection-end="531" vertical-scroll-proportion="-4.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="85" selection-start="218" selection-end="218" vertical-scroll-proportion="0.17924528">
           <folding />
         </state>
       </provider>
