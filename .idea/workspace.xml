@@ -38,7 +38,6 @@
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\original\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\square\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\thumb\DSC_0446.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb" afterPath="$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb" />
     </list>
     <ignored path="jjchen_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,7 +144,7 @@
       <file leaf-file-name="20140122042336_create_twitter_searches.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.10584958">
+            <state line="7" column="18" selection-start="197" selection-end="197" vertical-scroll-proportion="0.37047353">
               <folding />
             </state>
           </provider>
@@ -1155,7 +1154,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.10584958">
+        <state line="7" column="18" selection-start="197" selection-end="197" vertical-scroll-proportion="0.37047353">
           <folding />
         </state>
       </provider>
