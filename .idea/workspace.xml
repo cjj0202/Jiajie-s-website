@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d3efd7-6391-4099-aaad-d4841a8ee169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/twitter.rb" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\app\views\blog\index.html.erb" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\app\views\blog\new.html.erb" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\app\views\blog\show.html.erb" afterPath="" />
@@ -39,12 +38,7 @@
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\original\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\square\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\thumb\DSC_0446.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/twitters/index.html.erb" afterPath="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/twitter_search.rb" afterPath="$PROJECT_DIR$/app/models/twitter_search.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/twitters_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/twitters_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/twitters_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/twitters_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb" afterPath="$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb" />
     </list>
     <ignored path="jjchen_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,6 +104,7 @@
     <file path="/twitters_helper.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390363432960" ignored="false" />
     <file path="/20140122042151_drop_twitter_search.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390364560160" ignored="false" />
     <file path="/twitter.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390365817779" ignored="false" />
+    <file path="/20140122042336_create_twitter_searches.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390366339334" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,10 +133,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="twitter.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="40" selection-start="74" selection-end="74" vertical-scroll-proportion="0.1">
+            <state line="2" column="40" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140122042336_create_twitter_searches.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.10584958">
               <folding />
             </state>
           </provider>
@@ -192,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/galleries/about.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
@@ -208,6 +211,7 @@
         <option value="$PROJECT_DIR$/app/models/twitter_search.rb" />
         <option value="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/twitter.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb" />
       </list>
     </option>
   </component>
@@ -971,7 +975,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -981,7 +985,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1107,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="125" selection-end="136" vertical-scroll-proportion="0.15">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/gallery.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="17" selection-start="37" selection-end="52" vertical-scroll-proportion="0.05">
@@ -1151,7 +1148,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="74" selection-end="74" vertical-scroll-proportion="0.1">
+        <state line="2" column="40" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140122042336_create_twitter_searches.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.10584958">
           <folding />
         </state>
       </provider>
