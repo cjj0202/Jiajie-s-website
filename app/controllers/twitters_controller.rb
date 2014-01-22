@@ -5,8 +5,8 @@ class TwittersController < ApplicationController
 
   def create
 
-  @twitter2 = TwitterSearch.new(params[:twitter].permit(:search))
-  @twitter2.save
+  @twitter = TwitterSearch.new(params[:twitter].permit(:search_text))
+  @twitter.save
   #render text: TwitterSearch.last.search
   redirect_to twitters_path
   end

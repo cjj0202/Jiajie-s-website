@@ -8,10 +8,12 @@
   Twitter Test
 </p>
 
+
+
 <%= form_for  :twitter, :url => {:action => "create"}   do |f| %>
     <p>
-      <%= f.label :search %><br />
-      <%= f.text_field :search %>
+      <%= f.label :search_text %><br />
+      <%= f.text_field :search_text %>
     </p>
     <p>
       <%= f.submit %>
@@ -19,7 +21,7 @@
 <% end %>
 
 <p>
-  <%=   client.search(twitter2, :count => 3, :result_type => "recent").take(3).collect do |tweet|      %>
+  <%=   client.search(TwitterSearch.last.search_text, :count => 3, :result_type => "recent").take(3).collect do |tweet|      %>
   <%=      "#{tweet.user.screen_name}: #{tweet.text}"   %><br />
   <%    end         %>
 </p>
