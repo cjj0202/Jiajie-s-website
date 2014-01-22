@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d3efd7-6391-4099-aaad-d4841a8ee169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\app\views\blog\index.html.erb" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\app\views\blog\new.html.erb" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\app\views\blog\show.html.erb" afterPath="" />
@@ -38,20 +37,14 @@
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\original\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\square\DSC_0446.JPG" afterPath="" />
       <change type="DELETED" beforePath="D:\Jiajie-s-website\public\system\galleries\files\000\000\045\thumb\DSC_0446.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jjchen_web.iml" afterPath="$PROJECT_DIR$/.idea/jjchen_web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/twitters/index.html.erb" afterPath="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/twitters_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/twitters_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/twitters_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/twitters_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jjchen_web.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390240165225" ignored="false" />
+    <file path="/Dummy.txt" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390357022299" ignored="false" />
     <file path="/README.rdoc" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1388983019459" ignored="false" />
     <file path="/home.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390190656421" ignored="false" />
     <file path="/routes.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390352864105" ignored="false" />
@@ -70,7 +63,7 @@
     <file path="/galleries_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390275784196" ignored="false" />
     <file path="/20140106193432_add_attachment_avatar_to_galleries.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389040459364" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389041313674" ignored="false" />
-    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390188086104" ignored="false" />
+    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390363079741" ignored="false" />
     <file path="/application.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389042658562" ignored="false" />
     <file path="/new.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390183533638" ignored="false" />
     <file path="/_form.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389112145279" ignored="false" />
@@ -84,7 +77,7 @@
     <file path="/20140107162353_add_file_name_to_galleries.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389111848664" ignored="false" />
     <file path="D:/jjchen_web-master/db/schema.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389115625787" ignored="false" />
     <file path="/development.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389118985557" ignored="false" />
-    <file path="/Ruby Console" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390353511380" ignored="false" />
+    <file path="/Ruby Console" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390362962022" ignored="false" />
     <file path="/application.css" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389392570273" ignored="false" />
     <file path="/manage.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389474807002" ignored="false" />
     <file path="/galleria.classic.css.scss" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389475803312" ignored="false" />
@@ -110,6 +103,7 @@
     <file path="/twitter.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390353530553" ignored="false" />
     <file path="/twitter_search.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390345004129" ignored="false" />
     <file path="/twitters_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390353901654" ignored="false" />
+    <file path="/twitters_helper.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390363432960" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,16 +126,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/twitters/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.58198196">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="53" selection-start="444" selection-end="457" vertical-scroll-proportion="-6.107143">
+            <state line="21" column="22" selection-start="445" selection-end="445" vertical-scroll-proportion="0.62215906">
               <folding />
             </state>
           </provider>
@@ -150,16 +135,16 @@
       <file leaf-file-name="twitters_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/twitters_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+            <state line="7" column="2" selection-start="115" selection-end="195" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogs_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+      <file leaf-file-name="twitters_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/twitters_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="328" selection-end="333" vertical-scroll-proportion="0.0">
+            <state line="3" column="12" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/galleries/manage.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/about.html.erb" />
@@ -208,6 +192,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/twitters_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/twitters_helper.rb" />
       </list>
     </option>
   </component>
@@ -250,6 +235,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -610,7 +596,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -631,7 +616,7 @@
       <recent name="D:\rubyonrails\project\jjchen_web\app\views\layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: jjchen_web">
+  <component name="RunManager" selected="IRB console.Rails console: jjchen_web">
     <configuration default="false" name="All features in: jjchen_web" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="jjchen_web" />
@@ -808,13 +793,6 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -844,6 +822,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -914,6 +899,8 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
     <configuration default="false" name="Development: jjchen_web" type="RailsRunConfigurationType" factoryName="Rails">
@@ -973,18 +960,18 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3242424" sideWeight="0.6715928" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1052,13 +1039,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/blogs_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140121225241_create_twitter_searches.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1075,23 +1055,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/galleries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="118" selection-start="169" selection-end="169" vertical-scroll-proportion="0.1">
-          <folding />
-        </state>
+        <state line="2" column="118" selection-start="169" selection-end="169" vertical-scroll-proportion="0.1" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galleries/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.48579547">
-          <folding />
-        </state>
+        <state line="9" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.48579547" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
@@ -1103,23 +1077,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/twitter_search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="66" selection-end="66" vertical-scroll-proportion="0.05292479">
-          <folding />
-        </state>
+        <state line="1" column="28" selection-start="66" selection-end="66" vertical-scroll-proportion="0.05292479" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="51" selection-start="899" selection-end="899" vertical-scroll-proportion="0.26988637">
-          <folding />
-        </state>
+        <state line="32" column="51" selection-start="899" selection-end="899" vertical-scroll-proportion="0.26988637" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -1129,37 +1097,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="444" selection-end="457" vertical-scroll-proportion="-6.107143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="47" selection-start="533" selection-end="567" vertical-scroll-proportion="0.22342342">
+        <state line="15" column="47" selection-start="533" selection-end="567" vertical-scroll-proportion="0.22342342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="53" selection-start="444" selection-end="457" vertical-scroll-proportion="0.40625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="328" selection-end="333" vertical-scroll-proportion="0.0">
+        <state line="12" column="23" selection-start="328" selection-end="333" vertical-scroll-proportion="0.6">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/twitters_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+        <state line="7" column="2" selection-start="115" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/twitters_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/twitters/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.58198196">
+        <state line="21" column="22" selection-start="445" selection-end="445" vertical-scroll-proportion="0.62215906">
           <folding />
         </state>
       </provider>

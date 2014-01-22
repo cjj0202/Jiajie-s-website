@@ -19,12 +19,9 @@
 <% end %>
 
 <p>
-  <%=
-      client.search(TwitterSearch.last.search, :count => 3, :result_type => "recent").take(3).collect do |tweet|
-        "#{tweet.user.screen_name}: #{tweet.text}"
-      end
-
-  %>
+  <%=   client.search(twitter2, :count => 3, :result_type => "recent").take(3).collect do |tweet|      %>
+  <%=      "#{tweet.user.screen_name}: #{tweet.text}"   %><br />
+  <%    end         %>
 </p>
 
 <style>
