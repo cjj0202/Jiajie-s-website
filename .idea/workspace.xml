@@ -67,7 +67,7 @@
     <file path="/twitters_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390353901654" ignored="false" />
     <file path="/twitters_helper.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390363432960" ignored="false" />
     <file path="/20140122042151_drop_twitter_search.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390364560160" ignored="false" />
-    <file path="/twitter.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390365817779" ignored="false" />
+    <file path="/twitter.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390369816764" ignored="false" />
     <file path="/20140122042336_create_twitter_searches.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390366339334" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
       <file leaf-file-name="twitter.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.1">
+            <state line="2" column="12" selection-start="76" selection-end="76" vertical-scroll-proportion="0.1">
               <folding />
             </state>
           </provider>
@@ -1056,7 +1056,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.1">
+        <state line="2" column="12" selection-start="76" selection-end="76" vertical-scroll-proportion="0.1">
           <folding />
         </state>
       </provider>
