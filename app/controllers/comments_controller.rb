@@ -1,5 +1,7 @@
 class CommentsController < ApplicationController
 
+  http_basic_authenticate_with name: "cjj", password: "cjj", except: [:create]
+
   def create
     @blog = Blog.find(params[:blog_id])
 

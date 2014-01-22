@@ -7,6 +7,7 @@ JjchenWeb::Application.routes.draw do
   resources :blogs do
     resources :comments
   end
+  resources :twitters
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -18,6 +19,8 @@ JjchenWeb::Application.routes.draw do
   match '/about',   to: 'galleries#about',   via: 'get'
   match '/contact', to: 'galleries#contact', via: 'get'
   match '/gallery', to: 'galleries#gallery', via: 'get'
+
+
   #match '/blog',    to: 'galleries#blog',    via: 'get'
   match '/galleries/manage',    to: 'galleries#manage',    via: 'get'
   match '/blogs',    to: 'blogs#index',        via: 'get'

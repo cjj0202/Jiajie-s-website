@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140119245413) do
+ActiveRecord::Schema.define(version: 20140121225241) do
 
   create_table "blogs", force: true do |t|
     t.datetime "created_at"
@@ -40,6 +40,12 @@ ActiveRecord::Schema.define(version: 20140119245413) do
     t.string   "file_name"
     t.string   "file_file_name"
     t.string   "file_url"
+  end
+
+  create_table "twitter_searches", force: true do |t|
+    t.string   "search"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

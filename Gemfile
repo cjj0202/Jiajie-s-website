@@ -12,6 +12,9 @@ gem 'devise', '3.0.0.rc'
 gem 'aws-sdk'
 gem 'foreman'
 
+#Twitter
+gem 'twitter'
+
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
