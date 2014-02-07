@@ -8,9 +8,7 @@
   Twitter Test
 </p>
 
-
-
-<%= form_for  :twitter, :url => {:action => "create"}   do |f| %>
+<%= form_for  :twitter, :url => {:action => "create"}, remote: true   do |f| %>
     <p>
       <%= f.label :search_text %><br />
       <%= f.text_field :search_text %>
@@ -20,12 +18,12 @@
     </p>
 <% end %>
 
-<p>
-  <%=   client.search(TwitterSearch.last.search_text, :count => 3, :result_type => "recent").take(3).collect do |tweet|      %>
-  <%=      "#{tweet.user.screen_name}: #{tweet.text}"   %><br />
-  <%    end         %>
-</p>
+<p><%=
+    client.search(TwitterSearch.last.search_text, :count => 3, :result_type => "recent").take(3).collect do |tweet|
+       "#{tweet.user.screen_name}: #{tweet.text}"
+        end
+%></p>
 
 <style>
-    html,body{background:#222;margin:0;}
+    html,body{background:#DCDCDC;margin:0;}
 </style>

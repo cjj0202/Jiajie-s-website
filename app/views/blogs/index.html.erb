@@ -13,7 +13,7 @@
   </tr>
 
   <% @blogs.each do |post| %>
-      <tr style="color:#ffffff">
+      <tr style="color:#696969">
          <td width="30%"><%= truncate(post.blog_title, :length=>30) %></td>
         <td width="90%"><%= truncate(post.blog_text, :length=>80) %></td>
         <td><%= link_to 'Show', post %></td>
@@ -24,6 +24,6 @@
 </table>
 
 <style>
-    html,body{background:#222;margin:0;}
+    html,body{background:#DCDCDC;margin:0;}
 </style>
 
