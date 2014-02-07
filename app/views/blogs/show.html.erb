@@ -21,11 +21,12 @@
       <strong style="color:#339bb9">Comment:</strong>
       <%= comment.comment_body %>
     </p>
-    <p>
+    <font size="1.6"><p>
+
       <%= link_to 'Delete Comment', [comment.blog, comment],
                   method: :delete,
                   data: { confirm: 'Are you sure?' } %>
-    </p>
+    </p>    </font>
 <% end %>
 
 <h2>Add a comment:</h2>
@@ -47,4 +48,5 @@
 
 <style>
     html,body{background:#DCDCDC;margin:0;}
+    p{ color: #696969; }
 </style>
