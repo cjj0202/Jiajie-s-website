@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d3efd7-6391-4099-aaad-d4841a8ee169" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/home.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/twitters/index.html.erb" afterPath="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
     </list>
     <ignored path="jjchen_web.iws" />
@@ -27,7 +25,7 @@
     <file path="/galleries_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390275784196" ignored="false" />
     <file path="/20140106193432_add_attachment_avatar_to_galleries.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389040459364" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389041313674" ignored="false" />
-    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1391822752741" ignored="false" />
+    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1391823067214" ignored="false" />
     <file path="/application.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389042658562" ignored="false" />
     <file path="/new.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390183533638" ignored="false" />
     <file path="/_form.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389112145279" ignored="false" />
@@ -98,7 +96,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/twitters/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="66" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3778409">
+            <state line="8" column="4" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29829547">
               <folding />
             </state>
           </provider>
@@ -1105,7 +1103,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/twitters/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="66" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3778409">
+        <state line="8" column="4" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29829547">
           <folding />
         </state>
       </provider>
