@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d3efd7-6391-4099-aaad-d4841a8ee169" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/about.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/about.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/contact.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/home.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/twitters/index.html.erb" afterPath="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
     </list>
     <ignored path="jjchen_web.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1391811072439" ignored="false" />
     <file path="/README.rdoc" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1388983019459" ignored="false" />
-    <file path="/home.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1391808857168" ignored="false" />
+    <file path="/home.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1391822700564" ignored="false" />
     <file path="/routes.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390352864105" ignored="false" />
     <file path="/about.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389024784786" ignored="false" />
     <file path="/_header.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390353643388" ignored="false" />
@@ -26,7 +27,7 @@
     <file path="/galleries_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390275784196" ignored="false" />
     <file path="/20140106193432_add_attachment_avatar_to_galleries.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389040459364" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389041313674" ignored="false" />
-    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1391810317972" ignored="false" />
+    <file path="/index.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1391822752741" ignored="false" />
     <file path="/application.rb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389042658562" ignored="false" />
     <file path="/new.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1390183533638" ignored="false" />
     <file path="/_form.html.erb" changelist="76d3efd7-6391-4099-aaad-d4841a8ee169" time="1389112145279" ignored="false" />
@@ -94,19 +95,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galleries/about.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/twitters/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="95" selection-start="429" selection-end="429" vertical-scroll-proportion="-5.785714">
+            <state line="7" column="66" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3778409">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/galleries/contact.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="0.48579547">
+            <state line="14" column="74" selection-start="748" selection-end="748" vertical-scroll-proportion="-9.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="63" selection-start="652" selection-end="652" vertical-scroll-proportion="-6.785714">
               <folding />
             </state>
           </provider>
@@ -133,8 +143,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/manage.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/show.html.erb" />
@@ -143,9 +151,11 @@
         <option value="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/twitters_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/contact.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/twitters/index.html.erb" />
       </list>
     </option>
   </component>
@@ -992,16 +1002,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/manage.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="-10.75" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="-5.428571" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="563" selection-end="563" vertical-scroll-proportion="-10.464286" />
@@ -1075,23 +1075,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/twitters/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="436" selection-end="436" vertical-scroll-proportion="0.54829544">
+        <state line="10" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="0.48579547">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galleries/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="95" selection-start="429" selection-end="429" vertical-scroll-proportion="-5.785714">
+        <state line="11" column="95" selection-start="429" selection-end="429" vertical-scroll-proportion="0.46022728">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/contact.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="0.48579547">
+        <state line="14" column="74" selection-start="748" selection-end="748" vertical-scroll-proportion="-9.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="63" selection-start="652" selection-end="652" vertical-scroll-proportion="-6.785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/twitters/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="66" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3778409">
           <folding />
         </state>
       </provider>
