@@ -14,10 +14,10 @@
 ActiveRecord::Schema.define(version: 20140122042336) do
 
   create_table "blogs", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.string   "blog_title"
     t.text     "blog_text"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "comments", force: true do |t|
@@ -31,14 +31,13 @@ ActiveRecord::Schema.define(version: 20140122042336) do
   add_index "comments", ["blog_id"], name: "index_comments_on_blog_id"
 
   create_table "galleries", force: true do |t|
+    t.string   "file_name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "avatar_file_name"
-    t.string   "avatar_content_type"
-    t.integer  "avatar_file_size"
-    t.datetime "avatar_updated_at"
-    t.string   "file_name"
     t.string   "file_file_name"
+    t.string   "file_content_type"
+    t.integer  "file_file_size"
+    t.datetime "file_updated_at"
     t.string   "file_url"
   end
 
