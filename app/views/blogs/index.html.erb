@@ -15,7 +15,7 @@
   <% @blogs.each do |post| %>
       <tr style="color:#696969">
         <td width="30%"><%= link_to truncate(post.blog_title, :length=>35), post %></td>
-        <td width="90%"><%= truncate(post.blog_text, :length=>78) %></td>
+        <td width="90%"><%= truncate(post.blog_text, :length=>70) %></td>
         <td><%= link_to 'Show', post %>&nbsp;&nbsp;&nbsp;</td>
         <td><%= link_to 'Edit', edit_blog_path(post) %>&nbsp;&nbsp;&nbsp;</td>
         <td><%= link_to 'Delete', blog_path(post), method: :delete, data: { confirm: 'Are you sure?' } %></td>
