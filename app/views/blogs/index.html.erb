@@ -8,17 +8,17 @@
 
 <table  width="90%">
   <tr>
-    <td style="color:#339bb9" width="30%" ><b>Blog Title</b></td>
-    <td style="color:#339bb9" width="70%"><b>Blog Content</b></td>
+    <td style="color:#339bb9" width="30%" ><b>Blog Title</b><br></br></td>
+    <td style="color:#339bb9" width="70%"><b>Blog Content</b><br></br></td>
   </tr>
 
   <% @blogs.each do |post| %>
       <tr style="color:#696969">
-        <td width="30%"><%= link_to truncate(post.blog_title, :length=>35), post %></td>
-        <td width="90%"><%= truncate(post.blog_text, :length=>70) %></td>
-        <td><%= link_to 'Show', post %>&nbsp;&nbsp;&nbsp;</td>
-        <td><%= link_to 'Edit', edit_blog_path(post) %>&nbsp;&nbsp;&nbsp;</td>
-        <td><%= link_to 'Delete', blog_path(post), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td width="30%"><%= link_to truncate(post.blog_title, :length=>35), post %><br></br></td>
+        <td width="90%"><%= truncate(post.blog_text, :length=>70) %><br></br></td>
+        <td><%= link_to 'Show', post %>&nbsp;&nbsp;&nbsp;<br></br></td>
+        <td><%= link_to 'Edit', edit_blog_path(post) %>&nbsp;&nbsp;&nbsp;<br></br></td>
+        <td><%= link_to 'Delete', blog_path(post), method: :delete, data: { confirm: 'Are you sure?' } %><br></br></td>
        </tr>
 
    <% end %>
