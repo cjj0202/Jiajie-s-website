@@ -14,6 +14,12 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="Rails jjchen_web: test" uuid="642030f4-46d6-4ab0-9e30-bd6a4217aa25">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
   </component>
 </project>
 
