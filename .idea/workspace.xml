@@ -50,7 +50,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="25" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.66334164" vertical-offset="1834" max-vertical-offset="2265">
+            <state line="141" column="4" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.70074815" vertical-offset="1834" max-vertical-offset="2265">
               <folding />
             </state>
           </provider>
@@ -1196,7 +1196,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="25" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.66334164" vertical-offset="1834" max-vertical-offset="2265">
+        <state line="141" column="4" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.70074815" vertical-offset="1834" max-vertical-offset="2265">
           <folding />
         </state>
       </provider>
